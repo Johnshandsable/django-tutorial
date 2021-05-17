@@ -19,7 +19,7 @@ export default class Home extends Component {
         return (
             <Router>
                 <Switch>
-                    <Route path='/'>
+                    <Route exact path='/'>
                         <p>This is the homepage</p>
                     </Route>
                     <Route path='join' component={RoomJoin}></Route>
